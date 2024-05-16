@@ -2,7 +2,6 @@ package Control;
 
 import java.io.IOException;
 import java.net.URL;
-//import java.util.Random;
 
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
@@ -14,13 +13,13 @@ import javax.sound.sampled.UnsupportedAudioFileException;
 
 
 public class AudioPlayer {
-	private Clip effects; //effect sound
+	private Clip effects;// eff song
     private Clip[] songs; //list of song
 
-	private int currentSongId; //current song in a list song
+	private int currentSongId;
 	private float volume = 0.5f; //volume of sound
 	private boolean songMute, effectMute; //state of mute
-    private int type; //type to choose between song (1) or effect sound (2)
+    private int type; 
 
 	public AudioPlayer(String name,int type) {
         if (type == 1)
