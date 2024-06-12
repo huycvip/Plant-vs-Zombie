@@ -7,10 +7,10 @@ import java.awt.event.MouseEvent;
 
 // Menu class
 public class Menu extends JPanel {
-    private static final int MENU_WIDTH = 916;
-    private static final int MENU_HEIGHT = 637;
+    private static final int MENU_WIDTH = 894;
+    private static final int MENU_HEIGHT = 570;
     private static final int START_BUTTON_X = 470;
-    private static final int START_BUTTON_Y = 90;
+    private static final int START_BUTTON_Y = 350;
     private static final int START_BUTTON_WIDTH = 280;
     private static final int START_BUTTON_HEIGHT = 150;
 

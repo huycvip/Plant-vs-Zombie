@@ -13,7 +13,7 @@ public class Sunflower extends Plant {
         super(70, 80, 50, gamePlay);
         life = 5;
         plantImage = new ImageIcon(this.getClass().getResource("/Image/PlantImage/Sunflower.gif")).getImage();
-        sunProduceTimer = new Timer(20000, (e) -> produceSun());
+        sunProduceTimer = new Timer(15000, (e) -> produceSun());
         sunProduceTimer.start();
     }
 

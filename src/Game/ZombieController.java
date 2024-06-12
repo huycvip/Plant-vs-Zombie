@@ -36,7 +36,7 @@ public class ZombieController {
         zombieArrayList3 = new ArrayList();
         zombieArrayList4 = new ArrayList();
         zombieArrayList5 = new ArrayList();
-        zombieEating.start();//开启线程
+        zombieEating.start();
         zombieProducerTimer = new Timer(10000, (ActionEvent) -> nextZombie());
         zombieStateCheckTimer = new Timer(10, (ActionEvent) -> zombieStateCheck());
         attackTimer = new Timer(800, (ActionEvent) -> attack());
